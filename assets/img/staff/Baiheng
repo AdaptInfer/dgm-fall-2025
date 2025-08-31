@@ -1,0 +1,12 @@
+git clone https://github.com/BaihengChen/dgm-fall-2025.git
+cd dgm-fall-2025
+
+mkdir -p assets/img/staff
+cp "D:/2025Fall/Baiheng.png" assets/img/staff/Baiheng.png
+
+Copy-Item "D:\2025Fall\Baiheng.png" -Destination "assets\img\staff\Baiheng.png"
+
+git add assets/img/staff/Baiheng.png
+git commit -m "Add Baiheng photo"
+
+git push origin main
